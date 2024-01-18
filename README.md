@@ -1,3 +1,7 @@
-# Template's Package Template
-This is a template repo to facilitate the creation of new template packages for Text generator Plugin.
-# [How to create Templates package](https://text-gen.com/share-a-new-template-package)
+# SmartConnections Templates
+* You need to install Smart-Connections plugin
+
+# Prompts 
+| Prompt          | Usage                                            |
+| --------------- | ------------------------------------------------ |
+| summarize       | Summarize The Results of Smart Connections       |
