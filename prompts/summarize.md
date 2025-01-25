@@ -30,7 +30,7 @@ const query = this.tg_selection;
 const results = await app.plugins.plugins["smart-connections"].api.search(query);
 const contextResults = await Promise.all(
   results.slice(0, 5).map(r => 
-    app.plugins.plugins["smart-connections"].file_retriever(r.link, { lines: 10, max_chars: 1000 })
+   r.item.read()
   )
 );
 const context = contextResults.join("\n---\n");
